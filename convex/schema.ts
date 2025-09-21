@@ -6,9 +6,4 @@ export default defineSchema({
     text: v.string(),
     isCompleted: v.boolean(),
   }),
-
-  documents: defineTable({
-    name: v.string(),
-    tasks: v.id("tasks"),
-  }),
 });
