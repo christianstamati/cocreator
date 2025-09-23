@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CoCreator",
+  title: "CoCreator — One app to manage all your content",
   description: "CoCreator is a tool for creating content for social media",
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         <ConvexClientProvider>{children}</ConvexClientProvider>{" "}
       </body>
